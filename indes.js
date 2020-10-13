@@ -1,3 +1,7 @@
-var hello = 'Wordl';
+var Saludo = required('./Saludo');
 
-console.log(`Hello ${hello}`);
+var nombre = process.argv[2];
+
+var saludo = new Saludo(nombre);
+
+saludo.saluda();
