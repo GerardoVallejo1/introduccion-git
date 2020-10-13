@@ -1,3 +1,3 @@
-var hello = 'Hello Wordl';
+var hello = 'Wordl';
 
-console.log(hello);
+console.log(`Hello ${hello}`);
