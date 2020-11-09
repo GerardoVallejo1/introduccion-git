@@ -1,0 +1,88 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="./Encuesta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <div class="back">
+        <div class="container animate__animated animate__backInDown animate__slow">
+            <div id="progress_bar"></div>
+            <form class="questions_box">
+
+                <div id="question-1">
+                    <h2>Pregunta 1</h2>
+                    <h3>¿ como calificarias el servicio ?</h3>
+                    <div class="rating">
+
+                        <input type="radio" name="rating" id="r1">
+                        <label for="r1"></label>
+
+                        <input type="radio" name="rating" id="r2">
+                        <label for="r2"></label>
+
+                        <input type="radio" name="rating" id="r3">
+                        <label for="r3"></label>
+
+                        <input type="radio" name="rating" id="r4">
+                        <label for="r4"></label>
+
+                        <input type="radio" name="rating" id="r5">
+                        <label for="r5"></label>
+
+                    </div>
+                    <div id="submit1" class="button">Continuar</div>
+                </div>
+
+                <div id="question-2">
+                    <h2>Pregunta 2</h2>
+                    <h3> ¿ Alguna sugerencia que nos pueda proporcionar ? </h3>
+                    <div class="form-group">
+                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="10"></textarea>
+                    </div>
+                    <div id="submit2" class="button">Continuar</div>
+                </div>
+
+                <div id="question-3">
+                    <h2>Pregunta 3</h2>
+                    <h3>¿ Volverias con nosotros ?</h3>
+                    <input id="question-3-answer-a" type="radio" name="favelang" value="1"> si , Por
+                    supuesto<br>
+                    <input id="question-3-answer-b" type="radio" name="favelang" value="2"> No Gracias :) <br>
+                    <div id="submit3" class="button">Continuar</div>
+                </div>
+
+                <div id="question-4">
+                    <h2>Pregunta 4</h2>
+                    <h3>¿ Se te informo los servicios que ofrecen ?</h3>
+                    <input id="question-1-answer-a" type="radio" name="favelang" value="1"> No<br>
+                    <input id="question-1-answer-b" type="radio" name="favelang" value="1"> si , Por
+                    supuesto<br>
+                    <div id="submit4" class="button">Continuar</div>
+                </div>
+
+                <div id="question-5">
+                    <h2>Pregunta 5</h2>
+                    <h3>¿ Te gustaria recibir mas informacion de nuestro servicios ?</h3>
+                    <input id="question-1-answer-a" type="radio" name="favelang" value="1"> Si , Muchas
+                    gracias<br>
+                    <input id="question-1-answer-b" type="radio" name="favelang" value="2"> No gracias <br>
+                    <div id="submit5" class="button">Continuar</div>
+                </div>
+
+                <div id="question-6">
+                    <h2 style="text-align: center; margin: 10px;">Gracias por ayudar a mejorar el servicio</h2>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="./Encuesta.js"></script>
+</body>
+
+</html>
